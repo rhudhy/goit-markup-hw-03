@@ -1,4 +1,5 @@
-# goit-markup-hw-01
-GoIT - HTML+CSS - zad. 1
+# goit-markup-hw-02
 
-https://rhudhy.github.io/goit-markup-hw-01/
+GoIT - HTML+CSS - zad. 2
+
+https://rhudhy.github.io/goit-markup-hw-02/
