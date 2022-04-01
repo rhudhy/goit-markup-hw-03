@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="head">
+    <header class="navi">
       <a class="logo link" href="./">
         <span class="color-accent">Web</span>Studio</a
       >
@@ -37,39 +37,39 @@
     </header>
 
     <main>
-      <section class="title">
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+      <section class="title back-dark">
+        <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="title big button" type="button">Zamów usługę</button>
       </section>
-      <section>
-        <ul>
+      <section class="lorem">
+        <ul class="list">
           <li>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="ipsum">LOREM IPSUM</h3>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
             non modi quibusdam vero deleniti? Quisquam, suscipit laborum.
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="ipsum">LOREM IPSUM</h3>
             Provident eum saepe unde hic eius veritatis odit nesciunt
             reprehenderit cum, corrupti nam sapiente placeat!
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="ipsum">LOREM IPSUM</h3>
             Repudiandae quisquam quae fugit eaque iure expedita est, hic
             laboriosam qui nesciunt aperiam a esse atque in saepe accusantium
             dolores ea natus!
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="ipsum">LOREM IPSUM</h3>
             Mollitia numquam neque, vel itaque facilis suscipit vero quasi
             earum, iste dolorum reiciendis. Ipsa exercitationem facere
             consectetur odio, quae recusandae?
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+      <section class="subtitle">
+        <h2 class="subtitle">Czym się zajmujemy</h2>
+        <ul class="list">
           <li>
             <img
               src="images/img1.jpg"
@@ -86,64 +86,85 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+      <section class="subtitle back-lighter">
+        <h2 class="subtitle">Nasz zespół</h2>
+        <ul class="list">
           <li>
-            <figure>
+            <figure class="figure">
               <img
                 src="images/photo1.jpg"
                 alt="John Doe"
-                width="405"
-                height="390"
+                width="270"
+                height="260"
               />
-              <figcaption><b>John Doe</b><br />Product Designer</figcaption>
+              <figcaption>
+                <div class="fig-title">John Doe</div>
+                Product Designer
+              </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img
                 src="images/photo2.jpg"
                 alt="John Doe"
-                width="405"
-                height="390"
+                width="270"
+                height="260"
               />
-              <figcaption><b>John Doe</b><br />Frontend Developer</figcaption>
+              <figcaption>
+                <div class="fig-title">John Doe</div>
+                Frontend Developer
+              </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img
                 src="images/photo3.jpg"
                 alt="John Doe"
-                width="405"
-                height="390"
+                width="270"
+                height="260"
               />
-              <figcaption><b>John Doe</b><br />Marketing</figcaption>
+              <figcaption>
+                <div class="fig-title">John Doe</div>
+                Marketing
+              </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="figure">
               <img
                 src="images/photo4.jpg"
                 alt="John Doe"
-                width="405"
-                height="390"
+                width="270"
+                height="260"
               />
-              <figcaption><b>John Doe</b><br />UI Designer</figcaption>
+              <figcaption>
+                <div class="fig-title">John Doe</div>
+                UI Designer
+              </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="link" href="#">Web<b>Studio</b></a>
+
+    <footer class="foot back-dark">
+      <a class="logo link" href="#">
+        <span class="color-accent">Web</span>Studio</a
+      >
       <a id="kontakty"></a>
-      <address>
+      <address class="foot">
         <p>m. Warszawa, Aleje Jerozolimskie 21</p>
       </address>
-      <p><a class="link" href="mailto:info@example.com">info@example.com</a></p>
-      <p><a class="link" href="tel:+48111111111">+48 111 111 111</a></p>
+      <p class="foot">
+        <a class="contact link" href="mailto:info@example.com"
+          >info@example.com</a
+        >
+      </p>
+      <p class="foot">
+        <a class="contact link" href="tel:+48111111111">+48 111 111 111</a>
+      </p>
     </footer>
   </body>
 </html>

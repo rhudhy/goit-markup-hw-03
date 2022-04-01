@@ -4,16 +4,20 @@
   --font-second: "Raleway", sans-serif;
   --color-zero: #000000;
   --color-dark: #212121;
-  --color-title-back: #2f303a;
+  --color-back-dark: #2f303a;
   --color-accent: #2196f3;
   --color-light: #757575;
   --color-lighter: #ececec;
   --color-full: #ffffff;
 }
 
+/* ogólne */
 body {
   font-family: var(--font-main);
   color: var(--color-dark);
+}
+.list {
+  list-style-type: none;
 }
 .link {
   text-decoration: none;
@@ -27,6 +31,12 @@ body {
 .color-accent {
   color: var(--color-accent);
 }
+.back-dark {
+  background: var(--color-back-dark);
+}
+.back-lighter {
+  background: var(--color-lighter);
+}
 
 /* header */
 .logo {
@@ -35,6 +45,8 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+}
+.navi > .logo {
   color: var(--color-zero);
 }
 .navi {
@@ -44,9 +56,6 @@ body {
   letter-spacing: 0.02em;
   margin: 0;
   padding: 0;
-}
-.list {
-  list-style-type: none;
 }
 .navi > .contact {
   color: var(--color-light);
@@ -59,7 +68,6 @@ body {
 
 /* main */
 .title {
-  background: var(--color-title-back);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -67,6 +75,40 @@ body {
   letter-spacing: 0.06em;
   color: var(--color-full);
 }
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.ipsum {
+  font-weight: 700;
+  line-height: 1.143;
+}
+.lorem {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--color-light);
+}
+.figure {
+  background: var(--color-full);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  font-size: 16px;
+  line-height: 1.188;
+  width: 270px;
+  height: 368px;
+  color: var(--color-light);
+}
+.fig-title {
+  font-weight: 500;
+  padding: 25px 0px 7px;
+  color: var(--color-dark);
+}
+
 .button {
   border-radius: 4px;
   cursor: pointer;
@@ -91,4 +133,24 @@ body {
 .filter:active {
   background: var(--color-accent);
   color: var(--color-full);
+}
+
+/* footer */
+.foot > .logo {
+  color: var(--color-full);
+}
+.foot {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  font-style: unset;
+  color: var(--color-full);
+}
+.foot > .contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.foot > .contact:hover,
+.foot > .contact:focus,
+.foot > .contact:active {
+  color: var(--color-accent);
 }
