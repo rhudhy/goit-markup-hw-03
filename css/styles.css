@@ -1,7 +1,94 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  --font-main: "Roboto", sans-serif;
+  --font-second: "Raleway", sans-serif;
+  --color-zero: #000000;
+  --color-dark: #212121;
+  --color-title-back: #2f303a;
+  --color-accent: #2196f3;
+  --color-light: #757575;
+  --color-lighter: #ececec;
+  --color-full: #ffffff;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-main);
+  color: var(--color-dark);
 }
 .link {
   text-decoration: none;
+}
+.link:visited {
+  color: var(--color-dark);
+}
+.link:hover,
+.link:focus,
+.link:active,
+.color-accent {
+  color: var(--color-accent);
+}
+
+/* header */
+.logo {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--color-zero);
+}
+.navi {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0;
+}
+.list {
+  list-style-type: none;
+}
+.navi > .contact {
+  color: var(--color-light);
+}
+.navi > .contact:hover,
+.navi > .contact:focus,
+.navi > .contact:active {
+  color: var(--color-accent);
+}
+
+/* main */
+.title {
+  background: var(--color-title-back);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-full);
+}
+.button {
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.big {
+  background: var(--color-accent);
+  font-weight: 700;
+  line-height: 1.875;
+  width: 200px;
+  height: 50px;
+}
+.filter {
+  background: var(--color-lighter);
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  height: 38px;
+}
+.filter:hover,
+.filter:focus,
+.filter:active {
+  background: var(--color-accent);
+  color: var(--color-full);
 }
