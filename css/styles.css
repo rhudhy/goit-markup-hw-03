@@ -108,6 +108,24 @@ body {
   padding: 25px 0px 7px;
   color: var(--color-dark);
 }
+.portfolio {
+  background: var(--color-full);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  width: 370px;
+  height: 404px;
+  color: var(--color-light);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-dark);
+}
 
 .button {
   border-radius: 4px;
